@@ -1,9 +1,10 @@
 package models
 
 type Post struct{
-	Id int32
-	ParentId int32
-	Content string
-	CreateTime int32
-	UserId int32
+	ID int `json:"id"`
+	ParentID int `json:"parent_id"`
+	Content string `json:"content"`
+	CreateTime int `json:"create_time"`
+	UserID int `json:"user_id"`
 }
+

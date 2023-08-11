@@ -1,8 +1,9 @@
 package models
 
 type Topic struct{
-	Id int32
-	Title string
-	Content string
-	CreateTime int32
+	ID int `json:"id"`
+	Title string `json:"title"`
+	Content string `json:"content"`
+	CreateTime int `json:"create_time"`
 }
+
